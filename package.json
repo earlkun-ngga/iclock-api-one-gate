@@ -1,0 +1,30 @@
+{
+    "name": "tas-cms",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "bson-objectid": "^2.0.3",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "debug": "~2.6.9",
+        "dotenv": "^16.0.2",
+        "express": "~4.16.1",
+        "express-bearer-token": "^2.4.0",
+        "fake-people": "^1.0.0",
+        "faker": "^5.5.3",
+        "http-errors": "~1.6.3",
+        "jade": "~1.11.0",
+        "moment": "^2.29.4",
+        "mongodb": "^4.9.1",
+        "mongoose": "^6.5.4",
+        "morgan": "~1.9.1",
+        "mysql2": "^2.3.3",
+        "nodemon": "^2.0.19",
+        "semver": "^7.3.7"
+    }
+}
